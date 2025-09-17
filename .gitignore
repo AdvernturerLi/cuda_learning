@@ -1,0 +1,21 @@
+# 编译生成文件
+*.o
+*.out
+*.exe
+*.log
+
+# CUDA 中间文件
+*.cubin
+*.ptx
+*.fatbin
+
+# 占位文件可保留
+.gitkeep
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
