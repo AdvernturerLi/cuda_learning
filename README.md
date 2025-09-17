@@ -10,12 +10,8 @@
 - `resources/` 学习资源
 
 ## 环境
-- CUDA 12.6
-- GPU: NVIDIA RTX 3060
+- CUDA 12.0
+- GPU: NVIDIA GeForce RTX 4060
 - 编译: `nvcc`
 
-## 运行示例
-```bash
-cd examples/vector_add
-nvcc vector_add.cu -o vector_add
-./vector_add
+
